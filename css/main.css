@@ -1,0 +1,16 @@
+@font-face{
+font-family:"Helvetica-Bold";
+src:url(fonts/Helvetica/HelveticaNeueCyr-Bold.otf);
+}
+@font-face{
+font-family:"Helvetica-Light";
+src:url(fonts/Helvetica/HelveticaNeueCyr-Light.otf);
+	}
+body
+{
+background-color:#eee;  
+}
+p{
+font-family:"Helvetica-Bold";
+text-aligin:center;
+}
