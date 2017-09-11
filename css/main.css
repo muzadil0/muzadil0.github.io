@@ -13,4 +13,7 @@ background-color:#eee;
 p{
 font-family:"Helvetica-Bold";
 text-aligin:center;
+border-style:solid;
+border-color:white;
+border-width:2px;
 }
