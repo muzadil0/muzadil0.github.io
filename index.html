@@ -4,6 +4,11 @@
 	<meta charset="UTF-8">
 	<title>Rocket</title>
 	<link rel="stylesheet" href="css/main.css">
+	
+	<link href="http://vjs.zencdn.net/6.4.0/video-js.css" rel="stylesheet">
+  	<!-- If you'd like to support IE8 -->
+  	<script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+	
 </head>
 <body>		
 <div class="nav">
@@ -13,7 +18,8 @@
 		</div>
 		<p>Beispielvideo</p>
 		<div class="videoplayer">
-		<video src="videos/ApoRed.mp4" controls height="50%" width="50%"></video>
+		<video id="my-video" class="video-js" controls preload="auto" width="640" height="264" data-setup="{}">
+    <source src="video/ApoRed.mp4" type='video/mp4'>
 		</div>
 		<div class="choose-video">
 			
