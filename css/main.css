@@ -2,6 +2,12 @@
 	font-family:Roboto-BoldCondensed;
 	src:url(fonts/roboto/Roboto-BoldCondensed.ttf);
 }
+@font-face{
+font-family:"HelveticaNeueCyr-Light"
+src:url(fonts/Helvetica/HelveticaNeueCyr-Light.otf)
+}
+
+	
 body{
 	background-color:#eee;
 }
@@ -22,6 +28,7 @@ header{
 	right:0;
 	left:0;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	font-family:"HelveticaNeueCyr-Light;
 	}
 .nav a{
 	text-decoration:none;
