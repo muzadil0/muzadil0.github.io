@@ -4,8 +4,10 @@
 <style>
 #grad1 {
   height: 100px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(0deg, red, yellow); /* Standard syntax (must be last) */
+ background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 </style>
